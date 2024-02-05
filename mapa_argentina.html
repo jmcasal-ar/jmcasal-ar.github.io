@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3dfd964476d40dc44e304c41024f3517 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3dfd964476d40dc44e304c41024f3517" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3dfd964476d40dc44e304c41024f3517 = L.map(
+                "map_3dfd964476d40dc44e304c41024f3517",
+                {
+                    center: [-38.416097, -63.616672],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5b398666a057a10496e0e14f094af89 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+            var marker_e6533da490fb8862e83e82129e18fd1f = L.marker(
+                [-34.921389, -57.954444],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_69a2e86ce672ec4d175b3aa92ea02f18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c380ea28b9aee8836fa6240aa4e63ff = $(`<div id="html_3c380ea28b9aee8836fa6240aa4e63ff" style="width: 100.0%; height: 100.0%;">La Plata</div>`)[0];
+                popup_69a2e86ce672ec4d175b3aa92ea02f18.setContent(html_3c380ea28b9aee8836fa6240aa4e63ff);
+            
+        
+
+        marker_e6533da490fb8862e83e82129e18fd1f.bindPopup(popup_69a2e86ce672ec4d175b3aa92ea02f18)
+        ;
+
+        
+    
+    
+            var marker_0962688f592ebd91c312703060949fff = L.marker(
+                [-28.469581, -65.784337],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_81aa4e02461d20e49734eb9aceca1fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98989d176b0c3c6854e252909c9e4be8 = $(`<div id="html_98989d176b0c3c6854e252909c9e4be8" style="width: 100.0%; height: 100.0%;">San Fernando del Valle de Catamarca</div>`)[0];
+                popup_81aa4e02461d20e49734eb9aceca1fe7.setContent(html_98989d176b0c3c6854e252909c9e4be8);
+            
+        
+
+        marker_0962688f592ebd91c312703060949fff.bindPopup(popup_81aa4e02461d20e49734eb9aceca1fe7)
+        ;
+
+        
+    
+    
+            var marker_bca625db95b2775864b8e212e1ee946d = L.marker(
+                [-27.451389, -58.986667],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_28fc52989ad07a6ad8cf5b3945ea3989 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b217e79a48220ee4f12354f657fd98c = $(`<div id="html_1b217e79a48220ee4f12354f657fd98c" style="width: 100.0%; height: 100.0%;">Resistencia</div>`)[0];
+                popup_28fc52989ad07a6ad8cf5b3945ea3989.setContent(html_1b217e79a48220ee4f12354f657fd98c);
+            
+        
+
+        marker_bca625db95b2775864b8e212e1ee946d.bindPopup(popup_28fc52989ad07a6ad8cf5b3945ea3989)
+        ;
+
+        
+    
+    
+            var marker_2f34f5ef5435b7c40ca318341314b3ad = L.marker(
+                [-43.3, -65.1],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_1fb0468e7dbb9ccc0b83ea5a618d55c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f970918f9d66e3025e06c965310f5adb = $(`<div id="html_f970918f9d66e3025e06c965310f5adb" style="width: 100.0%; height: 100.0%;">Rawson</div>`)[0];
+                popup_1fb0468e7dbb9ccc0b83ea5a618d55c6.setContent(html_f970918f9d66e3025e06c965310f5adb);
+            
+        
+
+        marker_2f34f5ef5435b7c40ca318341314b3ad.bindPopup(popup_1fb0468e7dbb9ccc0b83ea5a618d55c6)
+        ;
+
+        
+    
+    
+            var marker_2f8af7224334852bbc63b8e8f4e0170b = L.marker(
+                [-31.420083, -64.188004],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_a143c28181027df0c48d0ea7b608073b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c77943df65deb9f3ea19b190365b5ef = $(`<div id="html_4c77943df65deb9f3ea19b190365b5ef" style="width: 100.0%; height: 100.0%;">Córdoba</div>`)[0];
+                popup_a143c28181027df0c48d0ea7b608073b.setContent(html_4c77943df65deb9f3ea19b190365b5ef);
+            
+        
+
+        marker_2f8af7224334852bbc63b8e8f4e0170b.bindPopup(popup_a143c28181027df0c48d0ea7b608073b)
+        ;
+
+        
+    
+    
+            var marker_fe53bb490f20ab4742331e829cdefbb7 = L.marker(
+                [-27.4806, -58.834099],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_4547413df6951435d38db7b63312daae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_544e5d0053f18b5fa81f2e24cda51d30 = $(`<div id="html_544e5d0053f18b5fa81f2e24cda51d30" style="width: 100.0%; height: 100.0%;">Corrientes</div>`)[0];
+                popup_4547413df6951435d38db7b63312daae.setContent(html_544e5d0053f18b5fa81f2e24cda51d30);
+            
+        
+
+        marker_fe53bb490f20ab4742331e829cdefbb7.bindPopup(popup_4547413df6951435d38db7b63312daae)
+        ;
+
+        
+    
+    
+            var marker_65aa5cee82014e9febf820e3be24a0ae = L.marker(
+                [-31.73333, -60.53333],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_35636bdfcf127c0239029f8fecec93db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ebf3ab60ede664ab4ab68220e1eac0f = $(`<div id="html_1ebf3ab60ede664ab4ab68220e1eac0f" style="width: 100.0%; height: 100.0%;">Paraná</div>`)[0];
+                popup_35636bdfcf127c0239029f8fecec93db.setContent(html_1ebf3ab60ede664ab4ab68220e1eac0f);
+            
+        
+
+        marker_65aa5cee82014e9febf820e3be24a0ae.bindPopup(popup_35636bdfcf127c0239029f8fecec93db)
+        ;
+
+        
+    
+    
+            var marker_354657bd6f9cf7b09f902d5d89c5a4cc = L.marker(
+                [-26.17753, -58.282],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_4635c98cf8a736da69cb8a3084c87a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcc44a9807929400375de0ec1869d7e6 = $(`<div id="html_fcc44a9807929400375de0ec1869d7e6" style="width: 100.0%; height: 100.0%;">Formosa</div>`)[0];
+                popup_4635c98cf8a736da69cb8a3084c87a82.setContent(html_fcc44a9807929400375de0ec1869d7e6);
+            
+        
+
+        marker_354657bd6f9cf7b09f902d5d89c5a4cc.bindPopup(popup_4635c98cf8a736da69cb8a3084c87a82)
+        ;
+
+        
+    
+    
+            var marker_2c60c18167b1f3925fd1d9742354c059 = L.marker(
+                [-24.19457, -65.30558],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_79286acfccc0f81d7747a3abb8c4bb58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fd5a2624106cd2907585832c7d6476 = $(`<div id="html_49fd5a2624106cd2907585832c7d6476" style="width: 100.0%; height: 100.0%;">San Salvador de Jujuy</div>`)[0];
+                popup_79286acfccc0f81d7747a3abb8c4bb58.setContent(html_49fd5a2624106cd2907585832c7d6476);
+            
+        
+
+        marker_2c60c18167b1f3925fd1d9742354c059.bindPopup(popup_79286acfccc0f81d7747a3abb8c4bb58)
+        ;
+
+        
+    
+    
+            var marker_76b047c9318655e18a624722952692e4 = L.marker(
+                [-36.61667, -64.28333],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_c7f231f5217aa2c097fdddd27cfabdd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e422b97ae152119153813f894486e198 = $(`<div id="html_e422b97ae152119153813f894486e198" style="width: 100.0%; height: 100.0%;">Santa Rosa</div>`)[0];
+                popup_c7f231f5217aa2c097fdddd27cfabdd5.setContent(html_e422b97ae152119153813f894486e198);
+            
+        
+
+        marker_76b047c9318655e18a624722952692e4.bindPopup(popup_c7f231f5217aa2c097fdddd27cfabdd5)
+        ;
+
+        
+    
+    
+            var marker_4035c2bf4670ff7ac01c9f8d20772877 = L.marker(
+                [-29.4131, -66.85656],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_87273e53ac58b896989ee97c186a13fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e5dac9520fe29abd7b2ec556bf1e6c = $(`<div id="html_19e5dac9520fe29abd7b2ec556bf1e6c" style="width: 100.0%; height: 100.0%;">La Rioja</div>`)[0];
+                popup_87273e53ac58b896989ee97c186a13fd.setContent(html_19e5dac9520fe29abd7b2ec556bf1e6c);
+            
+        
+
+        marker_4035c2bf4670ff7ac01c9f8d20772877.bindPopup(popup_87273e53ac58b896989ee97c186a13fd)
+        ;
+
+        
+    
+    
+            var marker_7442bddae7aa58664900cdc9a1591a71 = L.marker(
+                [-32.889458, -68.845839],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_eae5cb9ecde349d62cd6a637ab0e096c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b80bf733c16be91940ed07ac36cc41d = $(`<div id="html_9b80bf733c16be91940ed07ac36cc41d" style="width: 100.0%; height: 100.0%;">Mendoza</div>`)[0];
+                popup_eae5cb9ecde349d62cd6a637ab0e096c.setContent(html_9b80bf733c16be91940ed07ac36cc41d);
+            
+        
+
+        marker_7442bddae7aa58664900cdc9a1591a71.bindPopup(popup_eae5cb9ecde349d62cd6a637ab0e096c)
+        ;
+
+        
+    
+    
+            var marker_6a1a459a9b537233d7a44eecf259d57c = L.marker(
+                [-27.36708, -55.89608],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_4271e93b0b8432b03f5e12384e652371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cb88a0a9038113ea53331a2714be62b = $(`<div id="html_4cb88a0a9038113ea53331a2714be62b" style="width: 100.0%; height: 100.0%;">Posadas</div>`)[0];
+                popup_4271e93b0b8432b03f5e12384e652371.setContent(html_4cb88a0a9038113ea53331a2714be62b);
+            
+        
+
+        marker_6a1a459a9b537233d7a44eecf259d57c.bindPopup(popup_4271e93b0b8432b03f5e12384e652371)
+        ;
+
+        
+    
+    
+            var marker_d10c1b3a6ae15e99909544b37405cb61 = L.marker(
+                [-38.95161, -68.0591],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_cb8c8f6bbaf6dc36cdfcd3661f1c571d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b68db98c6e7fbbfb8a72ae24899eb2 = $(`<div id="html_88b68db98c6e7fbbfb8a72ae24899eb2" style="width: 100.0%; height: 100.0%;">Neuquén</div>`)[0];
+                popup_cb8c8f6bbaf6dc36cdfcd3661f1c571d.setContent(html_88b68db98c6e7fbbfb8a72ae24899eb2);
+            
+        
+
+        marker_d10c1b3a6ae15e99909544b37405cb61.bindPopup(popup_cb8c8f6bbaf6dc36cdfcd3661f1c571d)
+        ;
+
+        
+    
+    
+            var marker_7fa53bdd92526c7b0e216045a748d8d0 = L.marker(
+                [-40.8135, -62.9967],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_c684ae0f545b2b131f5b7bc140762e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891b1bc5d8d24f1f9d1e820e7c3f5900 = $(`<div id="html_891b1bc5d8d24f1f9d1e820e7c3f5900" style="width: 100.0%; height: 100.0%;">Viedma</div>`)[0];
+                popup_c684ae0f545b2b131f5b7bc140762e41.setContent(html_891b1bc5d8d24f1f9d1e820e7c3f5900);
+            
+        
+
+        marker_7fa53bdd92526c7b0e216045a748d8d0.bindPopup(popup_c684ae0f545b2b131f5b7bc140762e41)
+        ;
+
+        
+    
+    
+            var marker_a4ce1b1409a250c849efe1790ce43679 = L.marker(
+                [-24.7859, -65.4117],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_94264c98ec8c03fd10437223852e8e7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d942a6c371374b60dbbe46f8f9f502f7 = $(`<div id="html_d942a6c371374b60dbbe46f8f9f502f7" style="width: 100.0%; height: 100.0%;">Salta</div>`)[0];
+                popup_94264c98ec8c03fd10437223852e8e7f.setContent(html_d942a6c371374b60dbbe46f8f9f502f7);
+            
+        
+
+        marker_a4ce1b1409a250c849efe1790ce43679.bindPopup(popup_94264c98ec8c03fd10437223852e8e7f)
+        ;
+
+        
+    
+    
+            var marker_596495731e2690ed9b38b09891dfd037 = L.marker(
+                [-31.5375, -68.53639],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_6dd8a78412fc3d337d6485495584eb2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f943156714e70ae7ca4554d6526d73e3 = $(`<div id="html_f943156714e70ae7ca4554d6526d73e3" style="width: 100.0%; height: 100.0%;">San Juan</div>`)[0];
+                popup_6dd8a78412fc3d337d6485495584eb2e.setContent(html_f943156714e70ae7ca4554d6526d73e3);
+            
+        
+
+        marker_596495731e2690ed9b38b09891dfd037.bindPopup(popup_6dd8a78412fc3d337d6485495584eb2e)
+        ;
+
+        
+    
+    
+            var marker_2dd7e26162ff689bf11d7f22d23b8eb6 = L.marker(
+                [-33.29501, -66.33618],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_ec2934303d4b1a6598246954858b1769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a287bcb156d549ec08a342268330ca08 = $(`<div id="html_a287bcb156d549ec08a342268330ca08" style="width: 100.0%; height: 100.0%;">San Luis</div>`)[0];
+                popup_ec2934303d4b1a6598246954858b1769.setContent(html_a287bcb156d549ec08a342268330ca08);
+            
+        
+
+        marker_2dd7e26162ff689bf11d7f22d23b8eb6.bindPopup(popup_ec2934303d4b1a6598246954858b1769)
+        ;
+
+        
+    
+    
+            var marker_112c7334329e3cd9e424bad44b184ac7 = L.marker(
+                [-51.63333, -69.23333],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_ef247eabc688f8837507403e4b44822e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85673f2ebfb5ac3beb80a174075a4e54 = $(`<div id="html_85673f2ebfb5ac3beb80a174075a4e54" style="width: 100.0%; height: 100.0%;">Río Gallegos</div>`)[0];
+                popup_ef247eabc688f8837507403e4b44822e.setContent(html_85673f2ebfb5ac3beb80a174075a4e54);
+            
+        
+
+        marker_112c7334329e3cd9e424bad44b184ac7.bindPopup(popup_ef247eabc688f8837507403e4b44822e)
+        ;
+
+        
+    
+    
+            var marker_bcb62fb255ee4440580cec17176ec4ca = L.marker(
+                [-31.610657, -60.697294],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_a785d34c96151f5d7f677bc76c8d3886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f7d26fd31f8146c256e4a67dce48df6 = $(`<div id="html_1f7d26fd31f8146c256e4a67dce48df6" style="width: 100.0%; height: 100.0%;">Santa Fe</div>`)[0];
+                popup_a785d34c96151f5d7f677bc76c8d3886.setContent(html_1f7d26fd31f8146c256e4a67dce48df6);
+            
+        
+
+        marker_bcb62fb255ee4440580cec17176ec4ca.bindPopup(popup_a785d34c96151f5d7f677bc76c8d3886)
+        ;
+
+        
+    
+    
+            var marker_be7b3c99406b800e892606d269f6eca5 = L.marker(
+                [-27.79511, -64.26149],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_d06e894fe54a8f0c26d1c18e39ec1682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c03ef763af5a3877c9cb83e03b538b18 = $(`<div id="html_c03ef763af5a3877c9cb83e03b538b18" style="width: 100.0%; height: 100.0%;">Santiago del Estero</div>`)[0];
+                popup_d06e894fe54a8f0c26d1c18e39ec1682.setContent(html_c03ef763af5a3877c9cb83e03b538b18);
+            
+        
+
+        marker_be7b3c99406b800e892606d269f6eca5.bindPopup(popup_d06e894fe54a8f0c26d1c18e39ec1682)
+        ;
+
+        
+    
+    
+            var marker_c8336361b43009cd2e07e3568f690358 = L.marker(
+                [-54.8, -68.3],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_972fa98fd2962a10318e42aac03d106d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_303d6ec6440dd4ee15044b3845fcd6f5 = $(`<div id="html_303d6ec6440dd4ee15044b3845fcd6f5" style="width: 100.0%; height: 100.0%;">Ushuaia</div>`)[0];
+                popup_972fa98fd2962a10318e42aac03d106d.setContent(html_303d6ec6440dd4ee15044b3845fcd6f5);
+            
+        
+
+        marker_c8336361b43009cd2e07e3568f690358.bindPopup(popup_972fa98fd2962a10318e42aac03d106d)
+        ;
+
+        
+    
+    
+            var marker_7d37baa239d664b54291b4ee35010412 = L.marker(
+                [-26.82414, -65.2226],
+                {}
+            ).addTo(map_3dfd964476d40dc44e304c41024f3517);
+        
+    
+        var popup_cff0ceac26dbafc86acea9eebf4cce43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_189e981465057d5559fb508306ab010c = $(`<div id="html_189e981465057d5559fb508306ab010c" style="width: 100.0%; height: 100.0%;">San Miguel de Tucumán</div>`)[0];
+                popup_cff0ceac26dbafc86acea9eebf4cce43.setContent(html_189e981465057d5559fb508306ab010c);
+            
+        
+
+        marker_7d37baa239d664b54291b4ee35010412.bindPopup(popup_cff0ceac26dbafc86acea9eebf4cce43)
+        ;
+
+        
+    
+</script>
+</html>
